@@ -27,6 +27,10 @@ Little programs for various everyday tasks
 
 <b> Design: </b> A recursive solution: currently has bugs 
 
+<h2>math122.py</h2>
 
+<b>Purpose: </b> Solves the following problem: Let G = GL_2(Z/3Z) representing the group of invertible 2 by 2 matrices over the field Z/3Z. How many elements of order 3 are in G? 
+
+<b> Design </b> Uses numpy's matrix function to iteratively find the order of each 2x2 matrix with non-zero determinant. 
 
 
