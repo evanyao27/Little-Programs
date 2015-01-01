@@ -13,7 +13,7 @@ Little programs for various everyday tasks
 
 <h2> characteranalysis.py </h2> 
 
-![Alt text](/charateranalysis.jpg?raw=true "Character Analysis")
+![Alt text](/charateranalysis.jpg"Character Analysis")
 
 <b> Purpose: </b> Given the text file of a facebook groupchat, this program will analyze and make a graph of the number of characters each person has spoken. It will produce a historgram allowing you to easily see who is the most chatty. 
 
@@ -21,7 +21,7 @@ Little programs for various everyday tasks
 
 <h2> grade_sender.ipynb </h2> 
 
-![Alt text](/grade_sender.jpg?raw=true "Grade Sender")
+![Alt text](/grade_sender.png?raw=true "Grade Sender")
 
 <b> Purpose: </b> Send out grades to students from a CSV file. Displays all their homework scores, the ones that
 are dropped, and the their final scores. 
