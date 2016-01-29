@@ -13,11 +13,25 @@ Little programs for various everyday tasks
 
 <h2> characteranalysis.py </h2> 
 
-![Alt text](/characteranalysis.png "Character Analysis")
+![Alt text](/message_parser.png "Message Parser and Character Analysis")
 
-<b> Purpose: </b> Given the text file of a facebook groupchat, this program will analyze and make a graph of the number of characters each person has spoken. It will produce a historgram allowing you to easily see who is the most chatty. 
+<b> Purpose: </b> Given a "messages.html" file downloaded from Facebook's user data, this program will allow the user to explore the following features: 
 
-<b> Design: </b> Very simple - search for each group chat participant's full names and a new line character, such as "Evan Yao\n", which is displayed before each one of that person's messages. 
+<ul> 
+<li> Create bar charts that contain the following information for each person (see image) 
+<ul> 
+    <li> Character count in percent</li>
+    <li> Average response time in minutes </li> 
+    <li> Number of conversations initiated </li> 
+</ul>
+
+<li> List of people you've talked to the most (not pictured) </li> 
+<li> List of conversations most active, including your participation rate in them (not pictured) </li> 
+<li> Quiz where you choose a chat and are presented with some random quotes to identify (not pictured) </li>
+</li>
+</ul>
+
+<b> Design: </b> Uses basic dictionaries, counters, and XML tree parsing to generate statistics and matplotlib to generate graphs. 
 
 <h2> grade_sender.ipynb </h2> 
 
