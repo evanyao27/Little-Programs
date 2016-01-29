@@ -10,7 +10,7 @@ Program that analyzes the character count of each person in a groupchat.
 import matplotlib.pyplot as plt 
 import numpy as np 
 
-f = open("fens2.txt", "r")
+f = open("chat.txt", "r")
 
 print "Enter the full facebook names of the people in this chat. Type 'done' to end" 
 
@@ -30,12 +30,14 @@ if (len(names) == 0):
 
 freq = [0 for i in range(len(names))]
 
+h = h[0].split('\r')
+
 i = 0 
 
 while i != len(h):
     
     if h[i] in names: 
-        index = names.index(h[i])
+,         index = names.index(h[i])
         
         i = i + 1
 
